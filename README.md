@@ -19,15 +19,15 @@ docker ps
 
 4. Create user for Node. u can change "shareithub" to your name node
 ```
-sudo useradd -m -s /bin/bash shareithub
-sudo passwd shareithub
-sudo usermod -aG docker shareithub
-ls -ld /home/shareithub
+sudo useradd -m -s /bin/bash tmbphase
+sudo passwd tmbphase
+sudo usermod -aG docker tmbphase
+ls -ld /home/tmbphase
 ```
 
 5. Login user. your_user change to your create user for node
 ```
-su - shareithub
+su - tmbphase
 ```
 
 # U CAN CHANGE "shareithub" to your username or other name for step 4 & 5
